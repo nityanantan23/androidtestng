@@ -1,0 +1,7 @@
+# To run test locally, run:
+mvn install
+
+# To compile test project
+mvn install -DskipTests=true
+
+# After compiling test project, the compiled file is at /target/zip-with-dependencies.zip
